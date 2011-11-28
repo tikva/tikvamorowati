@@ -62,8 +62,8 @@ body {
   background-color: #FFFAF8;
   font-family: arial, sans-serif;
   font-size: 14px;
-  color: #222;
-  line-height: 1.4em;
+  color: #333;
+  line-height: 1.6em;
 }
 
 a {
@@ -77,12 +77,13 @@ a:hover {
 
 h1, h2, h3, h4 {
   color: #333;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
   font-size: 40px;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -138,9 +139,9 @@ p {
 #nav a {
   display: block;
   width: 200px;
-  line-height: 1.8em;
+  line-height: 1.4em;
   margin-left: -10px;
-  padding: 2px 0 2px 10px ;
+  padding: 6px 0 6px 10px ;
   color: #666;
 }
 
