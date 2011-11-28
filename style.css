@@ -107,21 +107,49 @@ p {
   position: relative;
 }
 
-#nav {
+
+/* -- NAVIGATION ------------------------------ */
+
+
+#rhs {
   width: 256px;
   position: absolute;
   top: 0;
   right: 0;
 }
 
-#nav .fixed {
+#nav {
   position: fixed;
   top: 0;
   padding-left: 44px;
   font-size: 12px;
+  margin-top: 45px;
+}
+
+#nav h3 {
+  color: #666;
+}
+
+#nav h4 {
+  margin: 30px 0 5px 0;
+  color: #00CB66;
+}
+
+#nav a {
+  display: block;
+  width: 200px;
+  line-height: 1.8em;
+  margin-left: -10px;
+  padding: 2px 0 2px 10px ;
+  color: #666;
+}
+
+#nav a:hover {
+  background-color: rgba(0,0,0,0.05);
 }
 
 
+/* -- PAGE CONTENT ------------------------------ */
 
 #content {
   width: 724px;
@@ -132,7 +160,8 @@ p {
 }
 
 #content-inset {
-  background-color: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.1);
+  background: url(images/texture.png);
   min-height: 300px;
   margin: 0 10px;
 }
