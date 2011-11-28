@@ -63,6 +63,42 @@ body {
   font-family: arial, sans-serif;
   font-size: 14px;
   color: #222;
+  line-height: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: #0B99C4;
+}
+
+a:hover {
+  color: #00CB66;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  margin: 1em 0;
 }
 
 #page {
@@ -82,6 +118,7 @@ body {
   position: fixed;
   top: 0;
   padding-left: 44px;
+  font-size: 12px;
 }
 
 
@@ -98,5 +135,20 @@ body {
   background-color: rgba(0,0,0,0.1);
   min-height: 300px;
   margin: 0 10px;
+}
+
+
+
+#content .card {
+  position: relative;
+  background: #fff;
+  margin: 0 74px 44px 74px;
+  margin-top: -160px;
+  padding: 44px;
+  -moz-border-radius:    6px;
+  -webkit-border-radius: 6px;
+  -moz-box-shadow:    0px 5px 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  
 }
 
